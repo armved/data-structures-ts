@@ -1,0 +1,31 @@
+{
+  "name": "data-structures-ts",
+  "version": "1.0.0",
+  "description": "Implementations of popular data structures written in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start.dev": "nodemon --watch 'src/**/*.ts' --ignore 'src/**/*.spec.ts' --exec 'ts-node' src/index.ts",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armved/data-structures-ts.git"
+  },
+  "keywords": [
+    "data-structures",
+    "TypeScript"
+  ],
+  "author": "armved",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armved/data-structures-ts/issues"
+  },
+  "homepage": "https://github.com/armved/data-structures-ts#readme",
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "nodemon": "^1.18.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.1"
+  }
+}
